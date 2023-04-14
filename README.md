@@ -13,7 +13,7 @@ This project is a .NET 5.0 backend API that provides the distance between airpor
 
 1. Run the project.
 2. Navigate to `https://localhost:[port]/swagger` in your web browser to view the Swagger documentation.
-3. Test the API by clicking on the `GET /api/airports/distance` endpoint and clicking on the `Try it out` button.
+3. Test the API by clicking on the `GET /airports`, `GET /airport/{iataCode}`, `GET /distance/from={from}&to={to}` endpoint and clicking on the `Try it out` button.
 4. Enter the 3-letter IATA codes for the departure and arrival airports in the `DepartureAirport` and `ArrivalAirport` parameters, respectively.
 5. Click on the `Execute` button to send the request.
 6. The distance between the airports in kilometers will be returned in the `Response Body` section.
