@@ -5,7 +5,7 @@ This project is a .NET 5.0 backend API that provides the distance between airpor
 ## Installation
 
 1. Clone this repository.
-2. Open the solution file (`AirportDistanceAPI.sln`) in Visual Studio or any other compatible IDE.
+2. Open the solution file (`DistanceAPI.sln`) in Visual Studio or any other compatible IDE.
 3. Build the solution to restore NuGet packages.
 4. Build the solution again to compile the project.
 
